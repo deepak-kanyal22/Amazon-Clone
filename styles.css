@@ -146,7 +146,7 @@ span{
 
 .back-section{
     background-image: url(back_image.jpg);
-    height: 600px;
+    height: 400px;
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -162,10 +162,81 @@ span{
     justify-content: center;
     font-size: 0.85rem;
     width: 80%;
-    margin-bottom: 300px;
+    margin-bottom: 70px;
 }
 
 .back-msg a{
     color: #007185;
 
+}
+
+/* shop sextion */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    border: 2px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #dddddd;
 }
